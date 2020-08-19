@@ -1,0 +1,492 @@
+
+
+p h3 h4 h5 
+{
+    font-family: monospace;
+}
+.contener{  width:1170px; margin:auto;} /* الكونتينر */ 
+.clearfix{  clear:both;} /* مسح الFloat   */ 
+
+ /* --------------------------------------------------------------------start hedar! ---------------------------------*/
+
+.hedar .slader{ /*--------------- الشاشة الرئيسة ------------------*/
+    background-image:url("../Image/millennial-guy-working-1080x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#eee;
+    height:750px;
+}
+
+.hedar .slader .introo {           /*------  الصورة الانترو-------------*/
+    text-align:center;
+    color:#927070;
+    padding-top:330px;
+}
+
+.hedar .slader .introo h2{         /*---------- النص الموجود في الصورة -----------------*/
+    margin:0 auto;
+    font-size: 50px;
+    width:550px;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    padding:5px 0;
+}
+.hedar .slader .introo h2:hover{
+    transform:scale(1.1,1.1);
+}
+
+.hedar .slader .introo button{ /*------------- الزرالموجود في الانتروا ---------------------*/
+    margin-top: 30px;
+    padding: 10px 30px;
+    background:none;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    color:#927070;
+    cursor: pointer;
+}
+
+.hedar .nev{     /*------------ القائمة لون وابعاد --------------*/
+    background-color:#252f31;
+    color:#fff;
+    overflow:hidden;
+   
+    
+}
+
+.hedar .nev h2{ /*------------- اسم القائمة  ---------------*/
+    margin: 13px 0px;
+}
+
+.hedar .nev h2 span{ /*-------------  نصف اسم القائمة ----------*/ 
+    color:#2a9f5b;
+}
+
+.hedar .nev ul { /*------------  القوائم ------------------*/ 
+    list-style:none;
+    padding-left:0px;
+    float:right;
+    margin: 17px;
+}
+
+.hedar .nev ul li{ /*----------- تنسيق القوائم --------------*/
+    float:left;
+    padding-left:30px;
+}
+
+.hedar .nev ul li a{ /*--------------  القوائم -------------------*/ 
+    color: #fff;
+    text-decoration: none;
+}
+
+ .hedar .nev ul li a.active{
+    color:#2ecc71;
+}
+.hedar .nev ul li a:hover{cursor: pointer;}  /* ------------------HOVER -----------------*/ 
+
+ /* ------------------------------------End hedar! ----------------------------------------------------------------------------------------------------------------*/
+
+ /* ------------------------------------------------------------------------------start fouts! --------------------------------------------------------------*/
+
+.fouts{
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:60px;
+}
+.fouts .feat{  
+    width:33.3333%;
+    height:150px;
+}
+.fouts .feat h2{
+   color:#555;
+}
+.fouts .feat p{ /* ----------   تصميم النص  ----------------*/ 
+    font-family: serif;
+    width: 75%;
+    padding-top: 15px;
+}
+
+ /* ------------------------------------End fouts! ----------------------*/
+
+ /* -----------------------------------------------------------------------start abut me! -------------------------------------------------------------------*/
+
+.abut {                      /*   ----------------///// البوكس الخاص ب نبذة عني  -------*/
+    background-color:#f2f2f1;
+    height: auto;
+    margin-top: 10px;
+    overflow:hidden;
+}
+.abut .img1{
+    width:350px;
+    height:500px;
+    padding-right:60px;
+}
+
+/* -----------------------/////////////start abut me ( icon )! ----------------------*/
+
+.abut .info .bosi .content .icon{
+    padding-right: 25px;
+    width: 10%;
+}
+.abut .info .bosi .content .icon i{
+    margin-top: 26px;
+    color: #2ecc71;
+    font-size: 173%;
+}
+
+.abut .info .bosi .content .text{
+    width: 80%;
+}
+.abut .info .bosi .content .text h3{
+    margin-bottom: -8px;
+}
+
+/* ------------------------------------End abut me (icon  )! ---\\\\\\\\\\\\\\\-------------------*/
+
+.abut .info{
+   overflow:hidden; 
+  color:#566366;
+}
+.abut .info h2{    /* نص عنوان نبذة عني */ 
+   margin-top:40px;
+    color:#566366;
+}
+.abut .info > p:last-of-type{
+    margin-top: 20px;
+}
+
+.abut .info .bosi{
+    margin-top: 30px;
+    overflow:hidden;
+}
+
+.abut .info .bosi .content{color:#555;} /* لون الخط بجوار الايقونة */
+
+
+.abut .info .bosi .content{ /* ابعاد ديفات بجوار الايقونات */
+    width:33%;
+    min-height: 122px;
+    margin-right: 90px;
+    overflow: hidden;
+}
+
+/* ----------------------------------------------------------------End abut me! ------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------start me skills! --------------------------------------------------*/
+
+.myskli{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top:30px;
+    overflow: hidden; 
+    margin-bottom: 70px;
+}
+.myskli .skil{
+    width:50%;
+}
+.myskli .skil h2{
+    margin-top:40px;
+    color:#566366;
+}
+
+.myskli .skil > p:last-of-type{
+    margin-top: 20px;
+}
+.myskli .skil button
+{
+    background:none;
+    padding: 7px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 1px solid #2ecc71;
+    color:#2ecc71;
+}
+.myskli .progr{
+    margin-top: 50px;
+    width: 50%;
+}
+.myskli .progr .avarg{
+    margin-left: 50px;
+}
+.myskli .progr .avarg h3{
+    color: #566366;
+    text-transform: uppercase;
+}
+.myskli .progr .avarg .eqwl{
+    height: 25px;
+    background-color: #f2f2f1;
+    margin-left: 50px;
+}
+.myskli .progr .avarg .eqwl span{   
+    background-color: #2ecc71;
+    height: 25px;
+    display: block;
+    color: #fff;
+    text-align: right;
+    line-height: 25px;
+}
+/* -------------------------------------------------------End me skills! -----------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------start  resume! --------------------------------------------------*/
+
+.resume {
+    background-color:#f2f2f1;
+    margin-bottom: 50px;
+    padding:70px;
+    text-align: center;
+}
+.resume .contener h2{
+     color:#566366;
+     text-transform: uppercase;
+}
+.resume .contener button{
+    margin-top: 40px;
+}
+
+/* ------------------------------------------------------End  resume! ----------------------*/
+
+/* ----------------------------------------------------------------------start  eduo! --------------------------------------------------*/
+
+.myeduo{
+    padding:10px;
+    padding-bottom: 30px;
+    padding-top:30px;
+    overflow: hidden; 
+}
+
+.myeduo .eduo{
+    width:50%;
+}
+.myeduo .eduopro h2,/*  ---------//////// grooping  h2 ------------------*/ 
+.myeduo .eduo h2{
+    margin-top:40px;
+    color:#566366;
+}
+.myeduo .eduopro p, /*  -------------//////---- grooping  prararaph ------------------*/ 
+.myeduo .eduo p{
+    margin-right: 70px;
+}
+
+.myeduo .eduo > p:last-of-type{
+    margin-top: 20px;
+    float: left;
+}
+
+.myeduo .eduopro{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.myeduo .eduopro,.exper{
+   margin-top: 50px;
+}
+
+.myeduo .eduopro button{  /* -------------------   الازرار \\\\\\----------*/
+    padding: 5px;
+    background-color: #2ecc71;
+    font-size: 11px;
+    border: 1px solid #2ecc71;
+    color:#fff;
+    margin: 5px 0px 20px;
+}
+
+.myeduo .eduopro .marg { /*----\\\\\-- الهوامش الخارجية للديف ----------------*/
+    
+    margin: 20px 0px 50px 0px;
+}
+
+
+/* ----------------------------------------------------------------End  eduo! ------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------start  costamer! ----------------------*/
+.costamer{
+    background-color:#f2f2f1;
+    padding: 60px 20px;
+    text-align: center;
+}
+.costamer .costam p{ /*  -----------////-----------النص المائل -------------*/
+    margin: 40px 10px 0px 10px;
+    font-style: italic;
+}
+.costamer .costam ul{    
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+.costamer .costam ul li{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #2ecc71;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.costamer .costam ul .active,
+.costamer .costam ul li:hover{
+    background-color: #2ecc71;
+}
+
+/* ---------------------------------------------------------End  costamer! ------------------------------------- ----------------*/
+
+
+/*------------------------------------------ ------------------------------- ---------------------- -----start partofol! --------------*/
+.partofol{
+    padding-top:50px;
+    padding-bottom:70px;
+    overflow: hidden;
+}
+.partofol h2{    /* -------//////--العنوان ---------------*/
+    color:#566366; 
+}
+.partofol div{
+    text-align: center;
+}
+.partofol .ourwork{
+    overflow:hidden;
+    margin: 100px 150px 10px 150px;
+}
+.partofol .ourwork > div{
+    float:left;
+    width:33.33%;
+    margin-bottom: 10px;
+}
+.partofol .ourwork > div img{
+    width: 85%;
+    margin: 10px;
+}
+.partofol .ourwork > div img:hover{
+    cursor: pointer;
+    background-color: #2ecc71;
+}
+/*-------------------------------------------------------------End partofol! --------------------------------------------------------- -----------*/
+
+/*-------------------------------------------------------------------------------- start infor--------------------------------------------------*/
+
+.infor{
+    background-color:#252e30;
+    overflow: hidden;
+}
+.infor .contactme{
+    padding-right: 20px;
+}
+.infor .contactme{
+    width: 50%;
+    margin: 40px 0px ;
+}
+
+.infor .contactme h2{ 
+    color:#fff;
+}
+
+.infor .contactme strong{
+    color:#fff;
+}
+.infor .form{
+    width: 45;
+    float:left;
+    padding: 80px 0px 20px 30px;
+}
+
+.infor .form label{
+    color:#fff;
+}
+.infor .form input
+{
+    display: block;
+    background-color: #4b5456;
+    border: none;
+    margin-top: 15px;
+    min-width: 250%;
+    height: 45px;
+    margin-bottom: 30px;
+    color:#fff;
+    max-width: 250%;
+}
+.infor .form textarea{
+     display: block;
+    background-color: #4b5456;
+    border: none;
+    margin-top: 15px;
+    width: 250%;
+    height: 45px;
+    margin-bottom: 30px;
+    color:#fff;
+    max-width: 250%;
+    height: 300px; 
+    resize: none;
+}
+.infor .form button{
+    background-color: #191f21;
+    margin-bottom: 50px;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+/*----------------------------------------------------End infor-----------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------- start footer--------------------------------------------------*/
+
+.footer{
+    color:#4b5456;
+    text-align:center;
+    background-color:#191f21;
+    padding:20px;
+    overflow: hidden;
+}
+
+.footer ul{    
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+.footer ul li{
+    width: 25px; 
+    display: inline-block;
+    cursor: pointer;     
+}
+.scrollTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: dodgerblue;
+    width: 40px;
+    height: 40px;
+    background-color: #fafafa4f;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+    
+}
+.scrollTop i{
+    padding-top: 9px;
+}
+
+/*--------------------------------------------------------- End footer------------------------------------------------------------------------------*/
+
+
+/*-------------framwork---------------------*/
+
+.my-button
+{
+    padding: 10px 30px;
+    background:none;
+    font-size: 18px;
+    border: 1px solid #2ecc71;
+    color:#2ecc71;
+    cursor: pointer;
+   
+}
+.my-button:hover{
+     transform:scale(1.1,1.1);  
+}
+
+.fl-float{
+    float:left;
+}
+p{
+    line-height: 1.7;
+    color:#888;
+}
